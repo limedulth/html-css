@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        body{
+            font-family: "Nunito", sans-serif;
+            font-size: 1em;
+            background-color: #f2f2f2;
+            padding: 0;
+            margin: 0;
+
+        }
+        header {
+            background-color: white;
+            
+            
+        }
+        main{   
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            bottom: 0;
+
+            
+        }
+        .nav-principal {
+            background-color: #0033c6;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav-principal > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            
+        }
+        .nav-sub {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav-sub > a {
+            color: blue;
+            text-decoration: none;
+            margin-right: 10px;
+            
+        }
+        .separador-red{
+            background-color: red;
+            height: 5px;
+        }
+        .ban-top {
+            text-align: center;
+            background-color: #0033c6;
+        }
+        .ban-top img {
+            justify-content: center;
+        }
+        .logo{
+            height: 100px;
+            
+        }
+        .logo img {
+            margin-top: 70px;
+
+              }
+        .nav-logo{
+            display: flex;
+        }
+        .cep{
+
+            border:1px solid #0033c6;
+        }
+        .nav-logo > p {
+            margin: 20px 0px 10px 20px;
+            padding: 20px;
+            border: 1px solid #0033c6;
+            
+
+        }
+        @media screen and (max-width: 1160px) {
+            .ban-top{
+                display: none;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="ban-top"><img src="https://www.casasbahia-imagens.com.br/criacao/01-home/home-especial/2024/aniversario/02.valendo/master/09-set/06/master-aniver-milhao.gif" alt="">
+        </div>
+        
+        <div class="nav-logo">     
+
+        <div class="logo"><img src="https://www.casasbahia-imagens.com.br/App_Themes/CasasBahia/img/header/r/logo.svg" alt=""></div>
+
+        <p>Informe seu CEP</p>
+    </div>
+
+
+
+
+
+        <nav class="nav-principal">
+            <a href="#">Telefonia</a>
+            <a href="#">Eletrodomésticos</a>
+            <a href="#">Tvs e Vídeo</a>
+            <a href="#">Móveis</a>
+            <a href="#">Eletroportáteis</a>
+            <a href="#">Informática</a>
+            <a href="#">Serviços</a>
+            <a href="#">Carnê Digital</a>
+        </nav>
+        <div class="separador-red"></div>
+        <nav class="nav-sub">
+            <a href="#">Ofertas da TV</a>
+            <a href="#">Retira Rápido</a>
+            <a href="#">Portal do Carnê</a>
+            <a href="#">Baixe o APP</a>
+            <a href="#">BanQi</a>
+            <a href="#">Venda seus produtos</a>
+            <a href="#">Produtos Reembalados</a>
+            <a href="#">Carnê Digital</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ea vero corporis incidunt autem cupiditate, quasi saepe vel, eaque quia earum laudantium perferendis harum dolore eum, tenetur amet quos? Ad.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
