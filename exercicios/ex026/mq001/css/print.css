@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+ nav {
+        display: none;
+        font-family: serif;
+    }
+main {
+        max-width: 800px;
+        margin: auto;
+        text-align: justify;
+    }
+header > h1 {
+    text-align: center;
+}
+
+article::after{
+    content: 'Este arquivo foi publicado dia 10/09/2024';
+}
+    

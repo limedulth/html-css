@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: block;
+            margin-left: -100%;
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="quadrado">
+
+    </div>
+    <button onclick="fecharQuadrado()">Fechar</button>
+
+
+
+    <script>
+        function fecharQuadrado(){
+            if (quadrado.style.display == 'block'){
+                quadrado.style.display = 'none'
+                
+            }else{
+                quadrado.style.display = 'block'
+            }
+            
+        }
+    </script>
+</body>
+</html>
